@@ -2,11 +2,12 @@ import React from 'react'
 import html from '../Assets/html.png'
 import CSS from '../Assets/css.png'
 import javascript from '../Assets/javascript.png'
-import nextjs from '../Assets/nextjs.png'
+import next from '../Assets/next.png'
 import graphql from '../Assets/graphql.png'
 import github from '../Assets/github.png'
 import tailwind from '../Assets/tailwind.png'
 import reactImage from '../Assets/react.png'
+
 
 const Skills = () => {
     const techs = [
@@ -42,7 +43,7 @@ const Skills = () => {
         },
         {
             id: 6,
-            src: nextjs,
+            src: next,
             title: 'Next JS',
             style: 'shadow-white',
         },

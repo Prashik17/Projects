@@ -8,25 +8,32 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
             <p  className='text-xl mt-10'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor 
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+              Bachelor's engineering passout-2022 with excellent full stack 
+              development skills. Have completed course & Certification in 
+              <b> MERN- Full Stack Developer. </b>
+              Strong in design and integration with intuitive problem-solving 
+              skills. 
+              Having excellent knowledge and expertise with ReactJS, 
+              NodeJS, MongoDB, Express.js, HTML5, CSS, JavaScript, ES6.
             
             </p>
 
             <br></br>
 
             <p className='text-xl'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor 
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+            I have done two personal projects by using full stack 
+            development skills like <br/>
+             1. My profile (Resume) - Static Webpage <br/>
+             2. Fully Responsive Webpage on Personal Portfolio <br/>
+             3. Student information system<br/>
+            Passionate about implementing and launching new projects. 
+            Ability to translate business requirements into technical 
+            solutions. 
+            Looking to start the career as an entry-level software engineer 
+            with a reputed firm driven by technology. Looking for 
+            challenging career in UI development, Full stack Development 
+            or ReactJS/NodeJS developer to grow and explore more.
+
             </p>
         </div>
     </div>

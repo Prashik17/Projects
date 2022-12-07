@@ -1,37 +1,24 @@
 import React from 'react'
-import arrayDestruct from '../Assets/portfolio/arrayDestruct.jpg'
-import installNode from '../Assets/portfolio/installNode.jpg'
+import Resume from '../Assets/portfolio/Resume.png'
 import navbar from '../Assets/portfolio/navbar.jpg'
-import reactParallax from '../Assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../Assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../Assets/portfolio/reactWeather.jpg'
+import SIF from '../Assets/portfolio/SIF.png'
+
 
 const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct
+            src: Resume
         },
         {
             id: 2,
-            src: reactParallax
+            src: SIF
         },
         {
             id: 3,
             src: navbar
         },
-        {
-            id: 4,
-            src: reactSmooth
-        },
-        {
-            id: 5,
-            src: installNode
-        },
-        {
-            id: 6,
-            src: reactWeather
-        },
+       
     ]
   return (
     <div name='portfolio' className='bg-gradient-to-b from-black
@@ -40,7 +27,7 @@ const Portfolio = () => {
         justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-                <p className='py-6'>Check out some of my work right here</p>
+                <p className='py-6'>This are my personal project that i have worked on :</p>
             </div>
 
         
@@ -51,8 +38,7 @@ const Portfolio = () => {
                     <div className='shadow-md shadow-gray-600 rounded-lg '>
                     <img src={src} alt='' className='rounded-md duration-200 hover:scale-105'/>
                     <div className='flex items-center justify-center'>
-                        <button className='w12 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                        <button className='w12 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                        
                     </div>
                 </div>
                 ))

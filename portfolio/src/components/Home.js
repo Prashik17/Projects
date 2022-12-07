@@ -1,6 +1,7 @@
 import React from 'react'
-import Question from '../Assets/Question.jpg'
+import Question from '../Assets/heroImage.png'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
+import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
@@ -16,12 +17,12 @@ const Home = () => {
                     I'm a Full Stack Developer
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in lectus dolor.
-                  Proin a faucibus augue. Nulla non placerat mauris, vel vehicula nulla. Aenean 
+                  I am a fresher recently graduated in 2022 i have completed 
+                  certification in Full stack developement from bangalore.
                 </p>
 
                 <div>
-                  <button className='group text-white w-fit px-6 py-3 my-2
+                  <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2
                   flex items-center rounded-md bg-gradient-to-r 
                   from-cyan-500 to-blue-700 cursor-pointer'>
                     Portfolio
@@ -30,7 +31,8 @@ const Home = () => {
                     size={25}
                     className='ml-1'/>
                     </span>
-                  </button>
+                  </Link>
+                  
                 </div>
             </div>
             <div>
