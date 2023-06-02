@@ -7,6 +7,7 @@ import SocialLinks from "./components/SocialLinks";
 import Contact from "./components/Contact";
 
 
+
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
       <Skills/>
       <Contact/>
       <SocialLinks/>
+     
     </div>
   );
 }

@@ -18,7 +18,7 @@ const Home = () => {
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
                   I am a fresher recently graduated in 2022 i have completed 
-                  certification in Full stack developement from bangalore.
+                  certification in Full stack development from bangalore and i have also completed a freelancing project. 
                 </p>
 
                 <div>
@@ -35,11 +35,11 @@ const Home = () => {
                   
                 </div>
             </div>
-            <div>
+            <div >
               <img 
               src={Question} 
               alt="my profile" 
-              className='rounded-2xl mx-auto w-2/3 lg:w-40%  '/>
+              className='rounded-2xl mx-auto lg:w-2/3 lg:w-40%'/>
             </div>
         </div>
     </div>

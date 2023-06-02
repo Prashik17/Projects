@@ -12,7 +12,7 @@ const SocialLinks = () => {
                 </>
             ),
             href:'https://www.linkedin.com/in/prashik-moon-275312205',
-            style: 'rounded-tr-md',
+            style: 'rounded-tr-md  hover:bg-blue-500',
         },
         {
             id: 2,
@@ -22,6 +22,7 @@ const SocialLinks = () => {
                 </>
             ),
             href:'https://github.com',
+            style: ' hover:bg-orange-400',
             
         },
         {
@@ -32,6 +33,7 @@ const SocialLinks = () => {
                 </>
             ),
             href:'mailto:moonprashik17@gmail.com',
+            style: ' hover:bg-red-500',
             
         },
         {
@@ -42,7 +44,7 @@ const SocialLinks = () => {
                 </>
             ),
             href:'/resume.pdf',
-            style: 'rounded-br-md',
+            style: 'rounded-br-md hover:bg-green-500',
             download: true,
         }
     ]
@@ -54,7 +56,7 @@ const SocialLinks = () => {
             <li 
             key={id} 
             className={
-            "flex justify-between items-center w-40 h-14 px-4  ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-600" 
+            "flex justify-between items-center w-40 h-14 px-4  ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" 
             + " " + style}>
             <a href={href}
             className='flex justify-between items-center w-full
