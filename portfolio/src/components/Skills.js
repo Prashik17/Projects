@@ -2,11 +2,12 @@ import React from 'react'
 import html from '../Assets/html.png'
 import CSS from '../Assets/css.png'
 import javascript from '../Assets/javascript.png'
-import next from '../Assets/next.png'
-import graphql from '../Assets/graphql.png'
+import Java from '../Assets/Java.png'
 import github from '../Assets/github.png'
 import tailwind from '../Assets/tailwind.png'
 import reactImage from '../Assets/react.png'
+import Express from '../Assets/Express.png'
+import mongo from '../Assets/mongo.png'
 
 
 const Skills = () => {
@@ -37,6 +38,18 @@ const Skills = () => {
         },
         {
             id: 5,
+            src: Express,
+            title: 'Express JS',
+            style: 'shadow-violet-400',
+        },
+        {
+            id: 6,
+            src: mongo,
+            title: 'Mongo DB',
+            style: 'shadow-green-400',
+        },
+        {
+            id: 7,
             src: tailwind,
             title: 'TailWind',
             style: 'shadow-sky-400',
@@ -47,11 +60,17 @@ const Skills = () => {
             title: 'GitHub',
             style: 'shadow-gray-400',
         },
+        {
+            id: 9,
+            src: Java,
+            title: 'Core Java',
+            style: 'shadow-red-400',
+        },
     ]
   return (
     <div name='experience' className='bg-gradient-to-b
-     from-gray-800 to-black w-full h-screen'>
-        <div className='max-w-screen-lg mx-auto p-4 flex flex-col
+     from-gray-800 to-black w-full'>
+        <div className='max-w-screen-lg mx-auto p-4 
         justify-center w-full h-full text-white'>
             <div>
                 <p className='text-4xl font-bold border-b-4
