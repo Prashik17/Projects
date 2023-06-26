@@ -1,6 +1,7 @@
 import React from 'react'
 import Resume from '../Assets/portfolio/Resume.png'
 import navbar from '../Assets/portfolio/navbar.jpg'
+import kanchi from '../Assets/portfolio/kanchi.png'
 import SIF from '../Assets/portfolio/SIF.png'
 
 
@@ -12,11 +13,12 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: SIF
+            src: navbar
         },
         {
             id: 3,
-            src: navbar
+            src: kanchi
+        
         },
        
     ]
@@ -36,7 +38,7 @@ const Portfolio = () => {
                  {
                 portfolios.map(({id,src})=>(
                     <div className='shadow-md shadow-gray-600 rounded-lg '>
-                    <img src={src} alt='' className='rounded-md duration-200 hover:scale-105'/>
+                    <a href='http://kan-chi.co/'><img src={src} alt='' className='rounded-md duration-200 hover:scale-105'/></a>
                     <div className='flex items-center justify-center'>
                         
                     </div>
